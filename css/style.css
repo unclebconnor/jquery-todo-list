@@ -1,0 +1,88 @@
+
+header {
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;;
+}
+
+footer {
+		background-color: lightgray;
+		text-align: center;
+}
+
+main {
+	text-align: center;
+}
+
+.itemBoxes {
+	text-align: left;
+	background-color: lightblue;
+	margin: 10px auto;
+	width: 400px;
+	min-height: 200px;
+}
+
+/*.toDoItems {
+	text-align: left;
+	width: 380px;
+	background-color: white;
+
+}*/
+
+.itemBoxes input {
+	display: inline-block;
+	text-align: left;
+}
+
+.toDoItemCols {
+	display: inline-block;
+	padding: 2px;
+}
+
+.tdcheckbox {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+.tdtext {
+	display: inline-block;
+	text-align: left;
+	width: 275px;
+}
+
+.tdpriority {
+	display: inline-block;
+	border-left: 1px solid lightgray;
+	text-align: right;
+	width: 60px;
+}
+ 
+ #addItem {
+	text-align: left;
+	background-color: lightblue;
+	margin: 10px auto;
+	width: 400px;
+	height: 100px;
+}
+
+/* #toDoBox {
+	text-align: left;
+	margin: 10px auto;
+	width: 400px;
+	min-height: 200px;
+}*/
+
+#additemtext {
+	width: calc(100% - 205px);
+}
+
+#addItemButton {
+	width: 70px;
+}
+
+

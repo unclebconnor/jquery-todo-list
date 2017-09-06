@@ -3,9 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Do these things</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css"></link>
 </head>
+
 <body>
-  <h1>Hello Front-End</h1>
+	<header>
+		<h1>Do these things</h1>
+	</header>
+
+	<main>
+		<form id="addItem">
+		<h3>Add Items</h3>
+			<input type="button" name="addItemButton" id="addItemButton" value="Add to list">
+			<input type="text" name="addItemText" id="additemtext" placeholder="Type your to-do item" >
+			<select name="priority" id="priority"> 
+				<option value="Priority">Choose Priority</option>
+				<option value="Normal">Normal</option>
+				<option value="Urgent">Urgent</option>
+				<option value="Whatever">Whatever</option>
+			</select>
+		</form> 
+
+		<div class="itemBoxes" id="toDoBox">
+			<h3>To-Do Items</h3>
+			<div id="itemBoxHeaders">
+				<div class="tdcheckbox">
+				</div>
+				<div class="tdtext" class="toDoItemCols" >To-Do Item</div>
+				<div  class="tdpriority" class="toDoItemCols">Priority</div>
+			</div>
+		</div>
+
+		<div class="itemBoxes" id="completedBox">
+			<h3>Completed Items</h3>
+
+		</div>
+	</main>
+
+  	<footer>Not done?  You're a bum.</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="js/to-do.js"></script>
 </body>
+
 </html>
